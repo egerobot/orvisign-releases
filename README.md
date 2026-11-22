@@ -54,8 +54,6 @@ This repository is the **official download channel for Orvisign installers on Gi
 
 ### 2. Identity and signing bridge for websites
 
-<img src="docs/images/bridge-see-what-you-sign-en.jpg" alt="Orvisign signing approval window showing each document by name and SHA-256 fingerprint" width="100%">
-
 Websites you use can ask Orvisign for a **signature, a Medula submission or an identity confirmation** through the browser extension or the desktop app:
 
 1. You press sign or confirm on the website.
@@ -64,8 +62,6 @@ Websites you use can ask Orvisign for a **signature, a Medula submission or an i
 4. A time stamp is added and the signed result returns to the website.
 
 No open port on your computer, no firewall prompts. The extension checks the signing component and offers the download if a piece is missing.
-
-<img src="docs/images/bridge-ready-en.jpg" alt="Orvisign browser extension shows the signing component is ready" width="100%">
 
 ### 3. Signing Desk — collect signatures from one or more people
 
