@@ -63,6 +63,8 @@ Websites you use can ask Orvisign for a **signature, a Medula submission or an i
 
 No open port on your computer, no firewall prompts. The extension checks the signing component and offers the download if a piece is missing.
 
+<img src="docs/images/extension-ready-en.jpg" alt="Orvisign browser extension: Ready — token signing is available. Orvisign Browser Helper 13.0.5, extension 1.3.3" width="100%">
+
 ### 3. Signing Desk — collect signatures from one or more people
 
 Upload one or more documents, invite one or more signers and track every signature at [orvisign.com](https://orvisign.com/en/signing-desk.html). Signers sign **in order** with their own e-signature card or mobile signature; people without an account receive an e-mail invitation, open an account and sign. The desktop app shows your Signing Desk processes and their status.
