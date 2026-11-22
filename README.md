@@ -31,8 +31,8 @@ This repository is the **official download channel for Orvisign installers on Gi
 
 | Platform | What to download | Notes |
 |---|---|---|
-| **macOS** (Apple silicon and Intel) | [`Orvisign-13.0.5.pkg`](https://github.com/egerobot/orvisign-releases/releases/latest) | Developer ID signed and notarized by Apple |
-| **macOS** — Browser Helper | [`Orvisign-Browser-Helper-13.0.5.pkg`](https://github.com/egerobot/orvisign-releases/releases/latest) | Lets the browser extension reach your e-signature card |
+| **macOS** (Apple silicon and Intel) | [`Orvisign-13.0.6.pkg`](https://github.com/egerobot/orvisign-releases/releases/latest) | Developer ID signed and notarized by Apple |
+| **macOS** — Browser Helper | [`Orvisign-Browser-Helper-13.0.6.pkg`](https://github.com/egerobot/orvisign-releases/releases/latest) | Lets the browser extension reach your e-signature card |
 | **Windows 10 / 11** (x64 and ARM64) | Microsoft Store — listing is in certification | Until the Store listing opens, see [orvisign.com/en/apps.html](https://orvisign.com/en/apps.html). The `.msix` files in each release are archive copies; Windows installs them from the Store. |
 | **Web** | [webapp.orvisign.com](https://webapp.orvisign.com/) | No installation |
 | **Browser extension** (Chrome, Edge, Firefox, Opera) | From the browser stores — see [orvisign.com/en/apps.html](https://orvisign.com/en/apps.html) | The `.zip` files in each release are archive copies of the store packages |
@@ -106,14 +106,14 @@ Every release has a `SHA256SUMS` file.
 
 ```bash
 # macOS
-shasum -a 256 Orvisign-13.0.5.pkg
-pkgutil --check-signature Orvisign-13.0.5.pkg
-spctl -a -vvv -t install Orvisign-13.0.5.pkg   # expect: accepted, source=Notarized Developer ID
+shasum -a 256 Orvisign-13.0.6.pkg
+pkgutil --check-signature Orvisign-13.0.6.pkg
+spctl -a -vvv -t install Orvisign-13.0.6.pkg   # expect: accepted, source=Notarized Developer ID
 ```
 
 ```powershell
 # Windows (PowerShell)
-Get-FileHash .\Orvisign_13.0.5.0_x64.msix -Algorithm SHA256
+Get-FileHash .\Orvisign_13.0.6.0_x64.msix -Algorithm SHA256
 ```
 
 The checksum must match the line in `SHA256SUMS`. The macOS installers are signed by **Developer ID Installer: EGEROBOT OTOMASYON MUHENDISLIK PROJE DANISMANLIK SANAYI VE TICARET LIMITED SIRKETI (9S8KV52JV4)** and notarized by Apple.

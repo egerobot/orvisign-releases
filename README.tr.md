@@ -31,8 +31,8 @@ Bu depo, **Orvisign kurulum dosyalarının GitHub'daki resmî indirme kanalıdı
 
 | Platform | İndirilecek dosya | Not |
 |---|---|---|
-| **macOS** (Apple çipli ve Intel) | [`Orvisign-13.0.5.pkg`](https://github.com/egerobot/orvisign-releases/releases/latest) | Developer ID ile imzalı, Apple onaylı (notarize) |
-| **macOS** — Tarayıcı Yardımcısı | [`Orvisign-Browser-Helper-13.0.5.pkg`](https://github.com/egerobot/orvisign-releases/releases/latest) | Tarayıcı eklentisinin e-imza kartınıza ulaşmasını sağlar |
+| **macOS** (Apple çipli ve Intel) | [`Orvisign-13.0.6.pkg`](https://github.com/egerobot/orvisign-releases/releases/latest) | Developer ID ile imzalı, Apple onaylı (notarize) |
+| **macOS** — Tarayıcı Yardımcısı | [`Orvisign-Browser-Helper-13.0.6.pkg`](https://github.com/egerobot/orvisign-releases/releases/latest) | Tarayıcı eklentisinin e-imza kartınıza ulaşmasını sağlar |
 | **Windows 10 / 11** (x64 ve ARM64) | Microsoft Store — kayıt onay sürecinde | Store sayfası açılana kadar [orvisign.com/tr/apps.html](https://orvisign.com/tr/apps.html)'e bakın. Sürümlerdeki `.msix` dosyaları arşiv kopyasıdır; Windows kurulumu Store'dan yapılır. |
 | **Web** | [webapp.orvisign.com](https://webapp.orvisign.com/) | Kurulum gerekmez |
 | **Tarayıcı eklentisi** (Chrome, Edge, Firefox, Opera) | Tarayıcı mağazalarından — [orvisign.com/tr/apps.html](https://orvisign.com/tr/apps.html) | Sürümlerdeki `.zip` dosyaları mağaza paketlerinin arşiv kopyasıdır |
@@ -106,14 +106,14 @@ Her sürümde bir `SHA256SUMS` dosyası vardır.
 
 ```bash
 # macOS
-shasum -a 256 Orvisign-13.0.5.pkg
-pkgutil --check-signature Orvisign-13.0.5.pkg
-spctl -a -vvv -t install Orvisign-13.0.5.pkg   # beklenen: accepted, source=Notarized Developer ID
+shasum -a 256 Orvisign-13.0.6.pkg
+pkgutil --check-signature Orvisign-13.0.6.pkg
+spctl -a -vvv -t install Orvisign-13.0.6.pkg   # beklenen: accepted, source=Notarized Developer ID
 ```
 
 ```powershell
 # Windows (PowerShell)
-Get-FileHash .\Orvisign_13.0.5.0_x64.msix -Algorithm SHA256
+Get-FileHash .\Orvisign_13.0.6.0_x64.msix -Algorithm SHA256
 ```
 
 Özet, `SHA256SUMS` içindeki satırla aynı olmalıdır. macOS kurulum dosyaları **Developer ID Installer: EGEROBOT OTOMASYON MUHENDISLIK PROJE DANISMANLIK SANAYI VE TICARET LIMITED SIRKETI (9S8KV52JV4)** ile imzalı ve Apple onaylıdır.
