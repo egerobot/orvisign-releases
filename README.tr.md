@@ -33,7 +33,7 @@ Bu depo, **Orvisign kurulum dosyalarının GitHub'daki resmî indirme kanalıdı
 |---|---|---|
 | **macOS** (Apple çipli ve Intel) | [`Orvisign-13.0.6.pkg`](https://github.com/egerobot/orvisign-releases/releases/latest) | Developer ID ile imzalı, Apple onaylı (notarize) |
 | **macOS** — Tarayıcı Yardımcısı | [`Orvisign-Browser-Helper-13.0.6.pkg`](https://github.com/egerobot/orvisign-releases/releases/latest) | Tarayıcı eklentisinin e-imza kartınıza ulaşmasını sağlar |
-| **Windows 10 / 11** (x64 ve ARM64) | Microsoft Store — kayıt onay sürecinde | Store sayfası açılana kadar [orvisign.com/tr/apps.html](https://orvisign.com/tr/apps.html)'e bakın. Sürümlerdeki `.msix` dosyaları arşiv kopyasıdır; Windows kurulumu Store'dan yapılır. |
+| **Windows 10 / 11** (x64 ve ARM64) | [Microsoft Store'da Orvisign](https://apps.microsoft.com/detail/9p7pp83zg7dr?hl=tr-TR&gl=TR) | Store'dan kurulur ve güncellenir. Sürümlerdeki `.msix` dosyaları arşiv kopyasıdır; Windows kurulumu Store'dan yapılır. |
 | **Web** | [webapp.orvisign.com](https://webapp.orvisign.com/) | Kurulum gerekmez |
 | **Tarayıcı eklentisi** (Chrome, Edge, Firefox, Opera) | Tarayıcı mağazalarından — [orvisign.com/tr/apps.html](https://orvisign.com/tr/apps.html) | Sürümlerdeki `.zip` dosyaları mağaza paketlerinin arşiv kopyasıdır |
 | **iOS ve Android** | Yakında | Planlandı; geliştirmesine henüz başlanmadı |
