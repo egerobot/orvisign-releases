@@ -33,7 +33,7 @@ This repository is the **official download channel for Orvisign installers on Gi
 |---|---|---|
 | **macOS** (Apple silicon and Intel) | [`Orvisign-13.0.6.pkg`](https://github.com/egerobot/orvisign-releases/releases/latest) | Developer ID signed and notarized by Apple |
 | **macOS** — Browser Helper | [`Orvisign-Browser-Helper-13.0.6.pkg`](https://github.com/egerobot/orvisign-releases/releases/latest) | Lets the browser extension reach your e-signature card |
-| **Windows 10 / 11** (x64 and ARM64) | Microsoft Store — listing is in certification | Until the Store listing opens, see [orvisign.com/en/apps.html](https://orvisign.com/en/apps.html). The `.msix` files in each release are archive copies; Windows installs them from the Store. |
+| **Windows 10 / 11** (x64 and ARM64) | [Orvisign on the Microsoft Store](https://apps.microsoft.com/detail/9p7pp83zg7dr) | Installs and updates from the Store. The `.msix` files in each release are archive copies; Windows installs Orvisign from the Store. |
 | **Web** | [webapp.orvisign.com](https://webapp.orvisign.com/) | No installation |
 | **Browser extension** (Chrome, Edge, Firefox, Opera) | From the browser stores — see [orvisign.com/en/apps.html](https://orvisign.com/en/apps.html) | The `.zip` files in each release are archive copies of the store packages |
 | **iOS and Android** | Coming soon | Planned; development has not started yet |
