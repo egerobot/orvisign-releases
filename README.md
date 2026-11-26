@@ -36,7 +36,7 @@ This repository is the **official download channel for Orvisign installers on Gi
 | **Windows 10 / 11** (x64 and ARM64) | [Orvisign on the Microsoft Store](https://apps.microsoft.com/detail/9p7pp83zg7dr) | Installs and updates from the Store. The `.msix` files in each release are archive copies; Windows installs Orvisign from the Store. |
 | **Web** | [webapp.orvisign.com](https://webapp.orvisign.com/) | No installation |
 | **Browser extension** (Chrome, Edge, Firefox, Opera) | From the browser stores — see [orvisign.com/en/apps.html](https://orvisign.com/en/apps.html) | The `.zip` files in each release are archive copies of the store packages |
-| **iOS and Android** | Coming soon | Planned; development has not started yet |
+| **iOS** (iPhone and iPad) | Coming soon to the App Store | In development |
 
 ## What Orvisign does
 

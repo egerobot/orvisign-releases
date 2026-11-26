@@ -36,7 +36,7 @@ Bu depo, **Orvisign kurulum dosyalarının GitHub'daki resmî indirme kanalıdı
 | **Windows 10 / 11** (x64 ve ARM64) | [Microsoft Store'da Orvisign](https://apps.microsoft.com/detail/9p7pp83zg7dr?hl=tr-TR&gl=TR) | Store'dan kurulur ve güncellenir. Sürümlerdeki `.msix` dosyaları arşiv kopyasıdır; Windows kurulumu Store'dan yapılır. |
 | **Web** | [webapp.orvisign.com](https://webapp.orvisign.com/) | Kurulum gerekmez |
 | **Tarayıcı eklentisi** (Chrome, Edge, Firefox, Opera) | Tarayıcı mağazalarından — [orvisign.com/tr/apps.html](https://orvisign.com/tr/apps.html) | Sürümlerdeki `.zip` dosyaları mağaza paketlerinin arşiv kopyasıdır |
-| **iOS ve Android** | Yakında | Planlandı; geliştirmesine henüz başlanmadı |
+| **iOS** (iPhone ve iPad) | Yakında App Store'da | Geliştirme sürüyor |
 
 ## Orvisign neler yapar
 
